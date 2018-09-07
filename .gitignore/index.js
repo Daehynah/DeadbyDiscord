@@ -1,8 +1,5 @@
 const Discord = require('discord.js')
 const bot = new Discord.Client()
-bot.on("ready",function() {
-	bot.user.setActivity('Daehynah', {type: 'MADE BY' });
-}
 
 bot.on('message', function (message) {
 
