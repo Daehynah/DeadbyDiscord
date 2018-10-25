@@ -5,7 +5,7 @@ bot.on('message', function (message) {
 
 
 	//Ambre
-	if ((message.content.includes === '!buy Ambre') || (message.content.includes === '!buy ambre') || (message.content.includes === '!buy AMBRE')){
+	if ((message.content.contains === '!buy Ambre') || (message.content.contains === '!buy ambre') || (message.content.contains === '!buy AMBRE')){
 
 		//Larimar
 		if (message.member.roles.has("486904294621052929")) {
