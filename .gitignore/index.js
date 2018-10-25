@@ -5,7 +5,8 @@ bot.on('message', function (message) {
 
 
 	//Ambre
-	if (message.content.includes('!buy')) && (message.content.includes('Ambre') || message.content.includes('ambre') || message.content.includes('AMBRE')){
+	if ((message.content === '!buy Ambre') || (message.content === '!buy ambre') || (message.content === '!buy AMBRE')){
+
 		//Larimar
 		if (message.member.roles.has("486904294621052929")) {
 			message.member.removeRole("486904294621052929").catch(console.error)
@@ -45,7 +46,7 @@ bot.on('message', function (message) {
 
 
 	//Amethyste
-	} else if (message.content.contains('!buy Amethyste') || message.content.contains('!buy amethyste') || message.content.contains('!buy AMETHYSTE')){
+	} else if ((message.content === '!buy Amethyste') || (message.content === '!buy amethyste') || (message.content === '!buy AMETHYSTE')){
 
 		//LArimar
 		if (message.member.roles.has("486904294621052929")) {
@@ -85,7 +86,7 @@ bot.on('message', function (message) {
 		}
 
 	//Argent
-	} else if (message.content.includes('!buy Argent') || message.content.includes('!buy argent') || message.content.includes('!buy ARGENT')){
+	} else if ((message.content === '!buy Argent') || (message.content === '!buy argent') || (message.content === '!buy ARGENT')){
 
 		//Ambre
 		if (message.member.roles.has("486903837974855681")) {
@@ -125,7 +126,7 @@ bot.on('message', function (message) {
 		}
 
 	//Bonbon
-	} else if (message.content.includes('!buy Bonbon') || message.content.includes('!buy bonbon') || message.content.includes('!buy BONBON')){
+	} else if ((message.content === '!buy Bonbon') || (message.content === '!buy bonbon') || (message.content === '!buy BONBON')){
 
 		//Ambre
 		if (message.member.roles.has("486903837974855681")) {
@@ -165,7 +166,7 @@ bot.on('message', function (message) {
 		}
 
 	//Diamant
-	} else if (message.content.includes('!buy Diamant') || message.content.includes('!buy diamant') || message.content.includes('!buy DIAMANT')){
+	} else if ((message.content === '!buy Diamant') || (message.content === '!buy diamant') || (message.content === '!buy DIAMANT')){
 
 		//Ambre
 		if (message.member.roles.has("486903837974855681")) {
@@ -205,7 +206,7 @@ bot.on('message', function (message) {
 		}
 
 	//Emeraude
-	} else if (message.content.includes('!buy Emeraude') || message.content.includes('!buy emeraude') || message.content.includes('!buy EMERAUDE')){
+	} else if ((message.content === '!buy Emeraude') || (message.content === '!buy emeraude') || (message.content === '!buy EMERAUDE') ){
 
 		//Amethyste
 		if (message.member.roles.has("486903705237717003")) {
@@ -245,7 +246,7 @@ bot.on('message', function (message) {
 		}
 
 	//LArimar
-	} else if (message.content.includes('!buy Larimar') || message.content.includes('!buy larimar') || message.content.includes('!buy LARIMAR')){
+	} else if ((message.content === '!buy Larimar') || (message.content === '!buy larimar') || (message.content === '!buy LARIMAR')){
 
 		//AMbre
 		if (message.member.roles.has("486903837974855681")) {
@@ -285,7 +286,7 @@ bot.on('message', function (message) {
 		}
 
 	//Or
-	} else if (message.content.includes('!buy Or') || message.content.includes('!buy or') || message.content.includes('!buy OR')){
+	} else if ((message.content === '!buy Or') || (message.content === '!buy or') || (message.content === '!buy OR')){
 
 		//Ambre
 		if (message.member.roles.has("486903837974855681")) {
@@ -325,7 +326,7 @@ bot.on('message', function (message) {
 		}
 
 	//RUbis
-	} else if (message.content.includes('!buy Rubis') || message.content.includes('!buy rubis') || message.content.includes('!buy RUBIS')){
+	} else if ((message.content === '!buy Rubis') || (message.content === '!buy rubis') || (message.content === '!buy RUBIS')){
 
 		//Ambre
 		if (message.member.roles.has("486903837974855681")) {
@@ -366,7 +367,7 @@ bot.on('message', function (message) {
 		}
 
 	//Saphir
-	} else if (message.content.includes('!buy Saphir') || message.content.includes('!buy saphir') || message.content.includes('!buy SAPHIR')){
+	} else if ((message.content === '!buy Saphir') || (message.content === '!buy saphir') || (message.content === '!buy SAPHIR')){
 
 		//Ambre
 		if (message.member.roles.has("486903837974855681")) {
@@ -406,5 +407,6 @@ bot.on('message', function (message) {
 		}
 	}
 }) 
+
 
 bot.login(process.env.TOKEN);
