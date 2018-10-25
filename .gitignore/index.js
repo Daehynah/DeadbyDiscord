@@ -5,7 +5,7 @@ bot.on('message', function (message) {
 
 
 	//Ambre
-	if (message.content.includes('!buy Ambre') || message.content.includes('!buy ambre') || message.content.includes('!buy AMBRE')){
+	if (message.content.contains('!buy Ambre') || message.content.contains('!buy ambre') || message.content.contains('!buy AMBRE')){
 
 		//Larimar
 		if (message.member.roles.has("486904294621052929")) {
@@ -46,7 +46,7 @@ bot.on('message', function (message) {
 
 
 	//Amethyste
-	} else if (message.content.includes('!buy Amethyste') || message.content.includes('!buy amethyste') || message.content.includes('!buy AMETHYSTE')){
+	} else if (message.content.contains('!buy Amethyste') || message.content.contains('!buy amethyste') || message.content.contains('!buy AMETHYSTE')){
 
 		//LArimar
 		if (message.member.roles.has("486904294621052929")) {
