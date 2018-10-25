@@ -5,8 +5,7 @@ bot.on('message', function (message) {
 
 
 	//Ambre
-	if (message.content.contains('!buy Ambre') || message.content.contains('!buy ambre') || message.content.contains('!buy AMBRE')){
-
+	if (message.content.includes('!buy')) && (message.content.includes('Ambre') || message.content.includes('ambre') || message.content.includes('AMBRE')){
 		//Larimar
 		if (message.member.roles.has("486904294621052929")) {
 			message.member.removeRole("486904294621052929").catch(console.error)
