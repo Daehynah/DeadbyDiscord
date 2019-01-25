@@ -4,7 +4,7 @@ const bot = new Discord.Client()
 bot.on('message', function (message) {
 
 
-	//Ambre
+	//Ambr
 	if ((message.content === '!buy Ambre') || (message.content === '!buy ambre') || (message.content === '!buy AMBRE')){
 
 		//Larimar
